@@ -1,0 +1,18 @@
+{
+  "name": "gpt-dev",
+  "version": "1.0.0",
+  "description": "This repo is for developing code using chat GPT. If doing so, please create a new branch before working on any new project.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@notionhq/client": "^2.2.2"
+  }
+}
